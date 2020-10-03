@@ -1,0 +1,39 @@
+_________________________________________
+HELP
+_________________________________________
+
+Welcome to my iterative deepening A* peg solitaire solver!
+Peg Solitaire is a single-player puzzle that infuriated me the first time I saw it,
+and subsequently attempted to solve it for hours. Afterwards, I went home and
+wrote a basic brute-force attempt to solve the puzzle, but it didn't work.
+
+The game itself is fairly simple: it's essentially 1-player checkers on a plus-shaped board.
+The goal of the player is to remove all of the pegs except one by jumping them over other pegs.
+In my visual outputs of the board, 'o' represents a peg in a slot, '.' represents a slot without
+a peg, and 'x' represents a square that's not part of the board at all.
+
+Through attempting MANY different heuristic variants, I have finally found a way to solve
+the peg solitaire puzzle using A*! Note that even through use of an advanced algorithm this was
+quite difficult. The only time I've managed to find a solution using this search took half an hour
+to run, using the settings that are currently the default for this program.
+You can enable Iterative Deepening from the menu if you want.
+
+Note that while the Iterative Deepening does function, it runs at such a slow pace for this surprisingly
+depth-intensive game that it's more practical to simply run the program without it, which is why it defaults 
+to disabled.
+
+Note that if you run this program with its default settings, it WILL deterministically solve the peg 
+solitaire puzzle within about a half hour.
+
+While running, the program will print out an update board once every PRINT_FREQ expansions.
+If a solution is found, that solution will be printed as a set of moves.
+
+Defaults:
+Heuristics = PCLNZZ, largestManhattanDistance
+Heuristic weights = [0.5, 4]
+ITERATIVE_DEEPENING_ENABLED = False
+PRINT_FREQ once every thousand expansions, CUTOFF disabled, weights Heuristic and Cost equally.
+
+To run the searcher with its default settings, simply return to the home menu and select (r)un.
+
+Return to menu? y/n

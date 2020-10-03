@@ -1,0 +1,12 @@
+_________________________________________
+WELCOME TO PEG SOLITAIRE A* SOLVER!
+_________________________________________
+
+Please note that unless you have changed them, all solver parameters are set to their defaults.
+Enter your selection from the menu options below to begin.
+
+(r)un the solver
+(e)nable iterative deepening component
+(l)ist heuristics included in itDeepAStar
+(h)elp!
+(q)uit

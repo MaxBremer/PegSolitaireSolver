@@ -1,0 +1,11 @@
+_________________________________________
+OPTIONS
+_________________________________________
+
+From this screen, you can modify the various parameters for our algorithm.
+Enter a selection from the options below, and you'll be allowed to modify that input.
+
+(h)euristics the search will use
+(hw)eights, or the weights of selected heuristics
+(c)onstants in the model, such as how often it prints a progress board.
+(m) will return you to the start menu
